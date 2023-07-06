@@ -1,0 +1,22 @@
+{
+	"sqltools.connections": [
+		{
+			"authenticator": "SNOWFLAKE",
+			"ocspOptions": {
+				"ocspFailOpen": true
+			},
+			"snowflakeOptions": {
+				"clientSessionKeepAlive": true,
+				"clientSessionKeepAliveHeartbeatFrequency": 3600
+			},
+			"previewLimit": 50,
+			"driver": "Snowflake",
+			"name": "snowflake-sr_bbzhang",
+			"account": "lcb99301.us-east-1",
+			"username": "SR_BBZHANG",
+			"password": "sr_bbzhang",
+			"database": "BBZHANG_TEST_DB",
+			"warehouse": "BBZHANG_MVP4_EXECUTE"
+		}
+	]
+}
